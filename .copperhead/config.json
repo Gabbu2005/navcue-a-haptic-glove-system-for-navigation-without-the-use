@@ -1,0 +1,5 @@
+{
+  "$comment": "Per-repository copperhead settings. A model is NOT set here: a hosted run is told which model to use, and a local run picks one from your own environment. Committing a model would override both.",
+  "docsDir": "docs",
+  "ecadDir": "ecad"
+}

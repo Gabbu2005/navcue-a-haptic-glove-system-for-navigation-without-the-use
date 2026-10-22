@@ -1,0 +1,17 @@
+# copperhead writes a per-run transcript here. It is a local record of a run,
+# not part of the design, and it can contain the full text of a conversation.
+.copperhead/runs/
+
+# KiCad working files
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.lck
+
+# build and fabrication output, which is regenerated from the design
+build/
+fab/
+gerbers/
+
+node_modules/
+.DS_Store
